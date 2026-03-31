@@ -19,10 +19,12 @@ export default function HomeHero() {
           </div>
 
           <div className="flex flex-col justify-end md:items-center flex-1">
-            <div className="flex md:flex-col gap-5">
-              <Stats statsName="MAX POWER" value="1015" format="CV" />
-              <Stats statsName="0-100 KM/H" value="2.5" format="S" />
-              <Stats statsName="TOP SPEED" value=">350" format="KM/H" />
+            <div className="flex justify-end w-full">
+              <div className="flex md:flex-col gap-5">
+                <Stats statsName="MAX POWER" value="1015" format="CV" />
+                <Stats statsName="0-100 KM/H" value="2.5" format="S" />
+                <Stats statsName="TOP SPEED" value=">350" format="KM/H" />
+              </div>
             </div>
           </div>
         </div>
