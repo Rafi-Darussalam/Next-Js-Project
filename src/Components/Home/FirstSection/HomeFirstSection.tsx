@@ -2,7 +2,7 @@ import HomeCard from "./HomeCard";
 
 export default function HomeFirstSection() {
   return (
-    <section className="h-150 bg-bg-primary">
+    <section className="h-200 md:h-150 bg-bg-primary">
       <div className="w-full h-full px-10 py-25 flex flex-col justify-between">
 
 
@@ -14,7 +14,7 @@ export default function HomeFirstSection() {
           </div>
         </div>
 
-        <div className="w-full flex gap-9">
+        <div className="w-full flex flex-col gap-9 md:flex-row">
           <HomeCard src="/" alt="imageCard" title="URUS PERFORMANTE" subtitle="The first Super Suv with the soul of a sport car and the functionality of an SUV" href="p" className="flex-3" linkTitle="DISCOVER MORE" />
           <HomeCard src="/" alt="imageCard" title="HURACAN STERATTO" subtitle="Beyond the Concrete The first super sports car designed for maximum driving pleasure even off the asphalt" href="p" linkTitle="EXPLORE OFF-ROAD" className="flex-2" />
         </div>
