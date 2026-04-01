@@ -4,7 +4,7 @@ import MobileMenu from "./MobileMenu";
 
 export default function Navbar() {
   return(
-    <nav className="bg-nav-bg h-14 flex justify-between items-center px-3.5 pointer-events-auto">
+    <nav className="bg-nav-bg h-14 flex justify-between items-center px-10 pointer-events-auto">
       <Logo />
 
       <ul className="hidden md:flex gap-3">

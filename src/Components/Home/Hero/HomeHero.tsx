@@ -3,9 +3,9 @@ import Stats from "./Stats";
 
 export default function HomeHero() {
   return (
-    <div className="relative w-full h-[70vh] md:h-[calc(100vh-3.5rem)] bg-bg-primary">
+    <div className="relative w-full h-[50vh] md:h-[calc(100vh-3.5rem)] bg-bg-primary">
       <div className="w-full h-full absolute overflow-hidden">
-        <ImageAutoSize src="/HomeHeroBg.png" alt="Lamborghini Rear View" className="object-contain translate-y-30 md:translate-y-0" />
+        <ImageAutoSize src="/HomeHeroBg.png" alt="Lamborghini Rear View" className="object-contain translate-y-20 md:translate-y-0" />
       </div>
       <div className="absolute w-full h-full bg-linear-to-b from-transparent to-bg-primary" />
 
