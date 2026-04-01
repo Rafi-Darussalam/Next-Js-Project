@@ -9,7 +9,7 @@ export default function Navbar() {
       <Logo />
 
       <ul className="hidden md:flex gap-3">
-        <NavLink className="text-white hover:opacity-80 transition-opacity" />
+        <NavLink className="text-white" />
       </ul>
 
       <div className="hidden md:block text-white font-[1.2rem]">
