@@ -10,7 +10,7 @@ export default function HomeFirstSection() {
           <h2 className="text-[1.7rem] font-bold text-white">SUPERIOR PERFORMANCE</h2>
           <div className="w-fit">
             <p className="text-accent text-[0.8rem] relative before:content-[''] before:absolute before:w-full before:bottom-0 before:left-0
-            before:h-[0.2rem] before:bg-accent">BEYOND THE HORIZON</p>
+            before:h-[0.2rem] before:bg-accent before:translate-y-[0.2rem]">BEYOND THE HORIZON</p>
           </div>
         </div>
 

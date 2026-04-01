@@ -5,6 +5,7 @@
   --accent: #009FB2;
   --nav-bg: #2F3133;
   --border: #454749;
+  --teritary: #000000;
 }
 
 @theme inline {
@@ -12,4 +13,5 @@
   --color-nav-bg: var(--nav-bg);
   --color-border: var(--border);
   --color-accent: var(--accent);
+  --color-teritary: var(--teritary);
 }
