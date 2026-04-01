@@ -11,7 +11,7 @@ export default function HomeSecondSection() {
           <h2 className="text-[4vw] text-center italic">"Our roadmap to decarbonization while remaining faithful to our DNA: the heart of the bull."</h2>
         </div>
 
-        <div className="bg-accent h-1 w-50" />
+        <div className="bg-accent h-1 w-50 rounded-2xl" />
       </div>
     </section>
   )
