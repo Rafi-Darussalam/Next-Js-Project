@@ -1,6 +1,7 @@
 import Logo from "./Logo";
 import NavLink from "./Navlink";
 import MobileMenu from "./MobileMenu";
+import { SiLamborghini } from "react-icons/si";
 
 export default function Navbar() {
   return(
@@ -11,8 +12,8 @@ export default function Navbar() {
         <NavLink className="text-white hover:opacity-80 transition-opacity" />
       </ul>
 
-      <div>
-
+      <div className="hidden md:block text-white font-[1.2rem]">
+        <SiLamborghini />
       </div>
 
       <div className="md:hidden">

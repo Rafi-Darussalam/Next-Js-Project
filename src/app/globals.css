@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --bg-primary: #1A1C1E;
-  --accent: #009FB2;
-  --nav-bg: #2F3133;
+  --bg-primary: #1a1c1e;
+  --accent: #009fb2;
+  --nav-bg: #2f3133;
   --border: #454749;
   --teritary: #000000;
 }
@@ -14,4 +14,16 @@
   --color-border: var(--border);
   --color-accent: var(--accent);
   --color-teritary: var(--teritary);
+}
+
+@layer utilities {
+  *::-webkit-scrollbar {
+    background: #454749;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: #646668;
+    border-radius: 3rem;
+    width: 0.2rem;
+  }
 }
