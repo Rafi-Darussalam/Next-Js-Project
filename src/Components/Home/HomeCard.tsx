@@ -11,7 +11,7 @@ export default function HomeCard({ title, subtitle, href, linkTitle, src, alt, c
   className?: string,
 }) {
   return(
-    <div className={`flex-1 h-78 relative bg-black rounded-2xl overflow-hidden ${className}`}>
+    <div className={`flex-1 h-78 relative bg-black rounded-2xl overflow-hidden hover:scale-102 hover:shadow-2xl transition-all ${className}`}>
       <div className="absolute w-full h-full">
         <ImageAutoSize src={src} alt={alt} className="object-cover" />
       </div>
