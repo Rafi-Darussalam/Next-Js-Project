@@ -40,7 +40,11 @@ export default function MobileMenu() {
     {isOpen &&
       <div className="bg-nav-bg w-full h-screen fixed top-0 left-0 flex items-center">
         <div className="w-full h-[80%] border-y border-border flex flex-col justify-center pl-9">
-          <NavLink className="text-white text-[3rem]" onclick={() => setIsOpen(false)} />
+          <NavLink className="text-white text-[3rem]" onclick={() => {
+            setTimeout(() => {
+              setIsOpen(false)
+            }, 500)
+          }} />
         </div>
       </div>
     }
