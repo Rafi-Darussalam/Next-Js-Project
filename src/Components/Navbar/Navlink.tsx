@@ -8,8 +8,9 @@ const links = [
   { title: "Experience", page: "/experience" },
 ];
 
-export default function NavLink({ className }: {
-  className?: string
+export default function NavLink({ className, onclick }: {
+  className?: string,
+  onclick?: () => void
 }) {
   return (
     <>
@@ -18,7 +19,7 @@ export default function NavLink({ className }: {
           <Link className={`
             relative before:content-'' before:bottom-0 before:left-0 before:w-0 before:h-1 before:absolute
             before:bg-white before:rounded-2xl hover:before:w-full before:translate-y-1 before:transition-all
-            ${className}`} href={link.page}>
+            ${className}`} href={link.page} onClick={onclick}>
             {link.title}
           </Link>
         </li>

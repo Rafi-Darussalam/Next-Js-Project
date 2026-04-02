@@ -16,14 +16,31 @@
   --color-teritary: var(--teritary);
 }
 
-@layer utilities {
-  *::-webkit-scrollbar {
-    background: #454749;
-  }
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
 
-  *::-webkit-scrollbar-thumb {
-    background: #646668;
-    border-radius: 3rem;
-    width: 0.2rem;
-  }
+*::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 10px;
+  transition: background 0.2s ease;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+*::-webkit-scrollbar-corner {
+  background: var(--bg-primary);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) var(--bg-primary);
 }
