@@ -1,4 +1,4 @@
-import FleetHero from "@/Components/Fleet/FleetHero";
+import FleetHero from "@/Components/Fleet/Hero/FleetHero";
 
 export default function Fleet() {
   return (
