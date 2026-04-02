@@ -1,5 +1,5 @@
 import ImageAutoSize from "@/Components/ImageAutoSize";
-import Stats from "./Stats";
+import Stats from "../../Stats";
 
 export default function HomeHero() {
   return (

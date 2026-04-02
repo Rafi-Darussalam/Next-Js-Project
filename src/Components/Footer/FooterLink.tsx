@@ -2,7 +2,7 @@ import FooterLinksComp from "./FooterLinksComp";
 
 const firstLink = [
   {title: "LEGAL NOTES", page: ""},
-  {title: "SUSTINABBILITY", page: ""},
+  {title: "SUSTAINABILITY", page: ""},
   {title: "NEWSLETTER", page: ""},
 ]
 
