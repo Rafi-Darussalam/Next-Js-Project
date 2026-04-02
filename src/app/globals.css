@@ -43,4 +43,5 @@
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--border) var(--bg-primary);
+  scrollbar-gutter: stable;
 }

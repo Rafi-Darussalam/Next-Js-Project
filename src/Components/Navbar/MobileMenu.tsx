@@ -43,7 +43,7 @@ export default function MobileMenu() {
           <NavLink className="text-white text-[3rem]" onclick={() => {
             setTimeout(() => {
               setIsOpen(false)
-            }, 500)
+            }, 200)
           }} />
         </div>
       </div>

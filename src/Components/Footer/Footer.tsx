@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="relative bg-bg-primary">
       <div className="absolute w-full h-full bg-teritary opacity-30" />
       <div className="border-y border-nav-bg">
-        <div className="relative py-9 px-9">
+        <div className="relative py-9 px-12">
           <div className="flex flex-col gap-5 justify-between md:flex-row">
             <div className="flex flex-col gap-2 text-white">
               <p className="text-[1.2rem] font-bold">LAMBORGHINI</p>
