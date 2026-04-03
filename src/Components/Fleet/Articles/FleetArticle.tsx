@@ -19,7 +19,7 @@ export default function FleetArticle({
       <div className="flex-4 w-full h-full rounded-lg overflow-clip">
         <ImageAutoSize src={src} alt={alt} className="object-cover" sizes="" />
       </div>
-      <div className="flex-6 gap-2.5 md:flex-3 flex flex-col justify-between overflow-hidden text-white overflow-y-auto">
+      <div className="flex-6 gap-2.5 md:flex-3 flex flex-col justify-between overflow-hidden md:py-7 text-white overflow-y-auto">
         <div>
           <h3 className="text-[1.7rem] font-bold">{title}</h3>
           <div className="font-medium text-accent">{subtitle}</div>

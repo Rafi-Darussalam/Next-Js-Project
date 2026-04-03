@@ -10,7 +10,7 @@ export default function FleetHero() {
           >THE RAGING <br /> <span className="text-accent">BULL COLLECTION</span></h1>
         </div>
         <div className="flex-1 flex flex-col justify-end">
-          <div className="flex gap-2.5">
+          <div className="flex gap-2.5 md:justify-end">
             <Button title="CONFIGURE" className="border-accent bg-accent" />
             <Button title="CONFIGURE" />
           </div>
