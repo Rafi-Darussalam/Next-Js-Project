@@ -2,7 +2,7 @@ import Button from "@/Components/Button"
 
 export default function FleetHero() {
   return (
-    <div className="bg-bg-primary px-12">
+    <div className="bg-bg-primary px-9">
       <div className="flex flex-col gap-2 py-7 md:flex-row border-b border-border">
         <div className="flex-3">
           <p className="text-accent">AUTOMOBILI LAMBORGHINI</p>

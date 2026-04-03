@@ -16,10 +16,10 @@ export default function FleetArticle({
 }) {
   return (
     <article className={`flex flex-col md:flex-row h-120 md:h-70 gap-15 ${className}`}>
-      <div className="flex-4 w-full h-full rounded-lg overflow-hidden">
-        <ImageAutoSize src={src} alt={alt} className="object-cover" />
+      <div className="flex-4 w-full h-full rounded-lg overflow-clip">
+        <ImageAutoSize src={src} alt={alt} className="object-cover" sizes="" />
       </div>
-      <div className="flex-6 md:flex-3 flex flex-col justify-between overflow-hidden text-white overflow-y-auto">
+      <div className="flex-6 gap-2.5 md:flex-3 flex flex-col justify-between overflow-hidden text-white overflow-y-auto">
         <div>
           <h3 className="text-[1.7rem] font-bold">{title}</h3>
           <div className="font-medium text-accent">{subtitle}</div>

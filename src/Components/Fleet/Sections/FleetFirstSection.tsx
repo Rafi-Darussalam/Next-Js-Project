@@ -32,7 +32,7 @@ const articles = [
 
 export default function FleetFirstSection() {
   return (
-    <section className="px-12 py-12 bg-bg-primary flex flex-col gap-10 md:gap-25">
+    <section className="px-9 py-12 bg-bg-primary flex flex-col gap-10 md:gap-25">
       {articles.map((article, index) => (
         <FleetArticle
           src={article.src} alt="d" title={article.title} subtitle={article.subtitle}
