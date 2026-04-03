@@ -16,6 +16,12 @@
   --color-teritary: var(--teritary);
 }
 
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 5px currentColor;
+  }
+}
+
 *::-webkit-scrollbar {
   width: 10px;
   height: 10px;
@@ -43,5 +49,4 @@
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--border) var(--bg-primary);
-  scrollbar-gutter: stable;
 }
