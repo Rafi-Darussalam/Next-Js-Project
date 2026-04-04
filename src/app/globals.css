@@ -2,6 +2,7 @@
 
 :root {
   --bg-primary: #1a1c1e;
+  --bg-secondary: #2F3133;
   --accent: #009fb2;
   --nav-bg: #2f3133;
   --border: #454749;
@@ -10,6 +11,7 @@
 
 @theme inline {
   --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
   --color-nav-bg: var(--nav-bg);
   --color-border: var(--border);
   --color-accent: var(--accent);
