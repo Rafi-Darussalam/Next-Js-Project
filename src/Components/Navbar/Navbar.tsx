@@ -12,7 +12,7 @@ export default function Navbar() {
         <NavLink className="text-white" />
       </ul>
 
-      <div className="hidden md:block text-white font-[1.2rem]">
+      <div className="hidden md:flex justify-end text-white font-[1.2rem] w-[124px]">
         <SiLamborghini />
       </div>
 
