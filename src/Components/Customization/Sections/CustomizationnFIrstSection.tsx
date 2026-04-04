@@ -31,7 +31,7 @@ export default function CustomizationFirstSection() {
           </div>
         </div>
         <div className="w-full max-md:h-70 md:flex-3 rounded-md overflow-clip">
-          <ImageAutoSize src="/Revuelto.png" alt="" className="object-cover" />
+          <ImageAutoSize src="/RevueltoEngine.png" alt="" className="object-cover" />
         </div>
       </article>
     </section>
