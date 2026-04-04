@@ -15,7 +15,7 @@ export default function HomeFirstSection() {
         </div>
 
         <div className="w-full flex flex-col gap-9 md:flex-row pt-20">
-          <HomeCard src="/LamborghiniUrusPerformante.jpeg" alt="imageCard" title="URUS PERFORMANTE" subtitle="The first Super Suv with the soul of a sport car and the functionality of an SUV" href="p" className="flex-3" linkTitle="DISCOVER MORE" />
+          <HomeCard src="/LamborghiniUrusPerformante.jpeg" alt="imageCard" title="URUS PERFORMANTE" subtitle="The first Super Suv with the soul of a sport car and the functionality of an SUV" href="p" className="flex-3" linkTitle="DISCOVER MORE " />
           <HomeCard src="/LamborghiniHuracanSteratto.png" alt="imageCard" title="HURACAN STERATTO" subtitle="Beyond the Concrete The first super sports car designed for maximum driving pleasure even off the asphalt" href="p" linkTitle="EXPLORE OFF-ROAD" className="flex-2" />
         </div>
 

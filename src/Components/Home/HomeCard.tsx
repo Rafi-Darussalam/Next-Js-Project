@@ -1,5 +1,6 @@
 import ImageAutoSize from "@/Components/ImageAutoSize"
 import Link from "next/link"
+import { FaArrowRight } from "react-icons/fa6";
 
 export default function HomeCard({ title, subtitle, href, linkTitle, src, alt, className }: {
   title: string,
@@ -19,8 +20,8 @@ export default function HomeCard({ title, subtitle, href, linkTitle, src, alt, c
       <div className="relative w-full h-full flex flex-col justify-end text-white box-border pt-25 px-6 py-6">
         <h3 className="text-[1.9rem] font-bold">{title}</h3>
         <p>{subtitle}</p>
-        <Link href={href} className="text-accent">
-          {linkTitle}
+        <Link href={href} className="flex items-center gap-1 text-accent">
+          {linkTitle} <FaArrowRight />
         </Link>
       </div>
     </div>
