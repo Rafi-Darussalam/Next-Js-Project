@@ -9,7 +9,7 @@ export default function HomeHero() {
       </div>
       <div className="absolute w-full h-full bg-linear-to-b from-transparent to-bg-primary" />
 
-      <div className="w-full h-full relative px-10 py-6 box-border flex flex-col justify-end">
+      <div className="w-full h-full relative px-10 py-6 box-border translate-y-20 md:translate-y-0 flex flex-col justify-end">
         <div className="flex flex-col md:flex-row pb-15 gap-2.5">
           <div className="flex-3">
             <p className="text-accent">AUTOMOBILI LAMBORGHINI</p>
@@ -19,7 +19,7 @@ export default function HomeHero() {
           </div>
 
           <div className="flex flex-col justify-end md:items-center flex-1">
-            <div className="flex justify-end w-full">
+            <div className="flex md:justify-end w-full">
               <div className="flex md:flex-col gap-5">
                 <Stats statsName="MAX POWER" value="1015" format="CV" />
                 <Stats statsName="0-100 KM/H" value="2.5" format="S" />
