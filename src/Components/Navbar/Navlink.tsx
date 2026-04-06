@@ -4,8 +4,6 @@ const links = [
   { title: "Home", page: "/" },
   { title: "Fleet", page: "/fleet" },
   { title: "Customization", page: "/customization" },
-  { title: "Heritage", page: "/heritage" },
-  { title: "Experience", page: "/experience" },
 ];
 
 export default function NavLink({ className, onclick }: {
